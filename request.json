@@ -1,0 +1,9 @@
+{
+	"amount": 10,
+	"payment_info": 
+	{
+		"cc_number": "4111111111111111",
+		"CVV2": "123",
+		"expiration": "09/24"
+	}
+}

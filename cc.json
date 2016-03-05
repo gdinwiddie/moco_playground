@@ -1,0 +1,45 @@
+[
+	{
+		"request": 
+		{
+			"json_paths": 
+			{
+				"$..cc_number": "4111111111111111"
+			}
+		},
+
+		"response": 
+		{
+			"text": "success"
+		}
+	},
+	{
+		"request": 
+		{
+			"json_paths": 
+			{
+				"$..cc_number": "4444444444444448"
+			}
+		},
+
+		"response": 
+		{
+			"text": "processor failure"
+		}
+	},
+	
+	{
+		"request": 
+		{
+			"json_paths": 
+			{
+				"$..cc_number": "4222222222222220"
+			}
+		},
+
+		"response": 
+		{
+			"text": "invalid card"
+		}
+	}
+]
